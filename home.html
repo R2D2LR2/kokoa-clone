@@ -2,27 +2,109 @@
 <html lang="kr">
   <head>
     <link rel="shortcut icon" href="img/avatar.jpg" />
-    <style>
-      html {
-        background-color: tomato;
-      }
-      body {
-        margin: 0;
-        padding: 20px;
-        background-color: thistle;
-      }
-      div {
-        margin: 40px 15px;
-        height: 150px;
-        width: 150px;
-        background-color: whitesmoke;
-      }
-    </style>
     <title>This is my website!</title>
+    <!-- <link rel="stylesheet" href="styles.css" /> -->
     <meta charset="utf-8" />
     <meta name="description" content="This is my Website!" />
+
+    <style>
+      /* :root {
+        --mainColor: green;
+        color: blue;
+      } */
+      body {
+        display: flex;
+        height: 90vh;
+        justify-content: center;
+        align-items: center;
+      }
+
+      div {
+        width: 200px;
+        height: 200px;
+        background-color: teal;
+      }
+
+      @media screen and (min-width: 601px) and (max-width: 800px) {
+        div {
+          background-color: wheat;
+        }
+      }
+
+      /* @keyframes test {
+        0% {
+          transform: rotateY(0);
+        }
+        50% {
+          transform: rotateY(360deg) scale(1.5);
+        }
+        100% {
+          transform: rotateY(0);
+        }
+      }
+      img {
+        border: 1px solid black;
+        border-radius: 50%;
+        animation: test 3s linear infinite;
+      } */
+    </style>
+  </head>
+  <html>
+    <body>
+      <div>
+        <!-- <img src="img/avatar.jpg" /> -->
+        <div></div>
+      </div>
+    </body>
+  </html>
+
+  <!-- 플렉스 속성 -->
+  <!-- <style>
+      body {
+        /* vh viewport height */
+        height: 100vh;
+        margin: 20px;
+        display: flex;
+        /* justtfy-content는 주축(수평)으로 움직이는 */
+        justify-content: space-between;
+        /* align-items는 교차축(수직)로 움직이는 */
+        align-items: center;
+        /* flex-direction는 주축은 수직이되고 교차축은 수평이 된다 */
+        flex-direction: column;
+      }
+      div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 28px;
+        color: white;
+        width: 300px;
+        height: 300px;
+        background-color: teal;
+      }
+      #first {
+        background-color: red;
+      }
+      #second {
+        background-color: wheat;
+      }
+    </style>
   </head>
   <body>
-    <div></div>
-  </body>
+    <div id="first">1</div>
+    <div id="second">2</div>
+    <div>3</div>
+</body>
+</html> -->
+
+  <!-- <header>
+      <h1>Hello!</h1>
+    </header>
+    <main>
+      <address>경기도 이천시 대산로288번길 117</address>
+      <p>
+        <mark><abbr title="Jeong. Ha Sik">JHS</abbr></mark>
+      </p>
+    </main>
+    <footer>&copy; 2020 Zin</footer> -->
 </html>
