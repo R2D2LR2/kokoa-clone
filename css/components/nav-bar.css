@@ -1,0 +1,41 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f9f9fa;
+  padding: 20px 50px;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+.nav__link {
+  position: relative;
+  color: #2e363e;
+}
+.nav__notification {
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  position: absolute; /* 부모의 포지션 속성을 relative로 지정해야 적용 됨 */
+}
+/* 상단 노티피케이션 생성  */
+.nav__notification__chats {
+  border-radius: 15px;
+  width: 30px;
+  height: 30px;
+  left: 15px;
+  bottom: 15px;
+}
+.nav__notification__etc {
+  border-radius: 3px;
+  width: 6px;
+  height: 6px;
+  left: 30px;
+  bottom: 30px;
+}

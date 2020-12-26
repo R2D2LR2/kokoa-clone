@@ -1,0 +1,33 @@
+/* 폰트 설정 */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+/* 스타일 초기화 */
+@import "./reset.css";
+/* 변수 지정 */
+@import "./variables.css";
+
+/* 콤포넌츠 */
+@import "./components/status-bar.css";
+@import "./components/nav-bar.css";
+@import "./components/screen-header.css";
+/* 로그인폼 */
+@import "./screens/login.css";
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.welcome-header {
+  margin: 90px 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.welcome-header__title {
+  margin-bottom: 20px;
+  font-size: 25px;
+  font-weight: 600;
+}
+.welcome-header__text {
+  width: 60%;
+  opacity: 0.8;
+}
