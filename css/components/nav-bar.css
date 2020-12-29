@@ -21,9 +21,18 @@
 }
 
 .nav__notification__etc {
+  background-color: tomato;
   border-radius: 3px;
   width: 6px;
   height: 6px;
   left: 30px;
   bottom: 30px;
+}
+.nav__notification__cog {
+  position: absolute;
+  background-color: tomato;
+  border-radius: 3px;
+  width: 6px;
+  height: 6px;
+  top: -5px;
 }

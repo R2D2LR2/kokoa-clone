@@ -2,4 +2,6 @@
   --koko-brown: rgb(51, 28, 27);
   --koko-yellow: rgb(249, 220, 5);
   --horizontal-space: 25px;
+  --main-border: 1px solid rgba(0, 0, 0, 0.2);
+  --color-gray: rgba(0, 0, 0, 0.5);
 }
