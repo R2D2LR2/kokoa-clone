@@ -27,3 +27,29 @@
   justify-content: space-between;
   color: var(--color-gray);
 }
+
+@keyframes hidetSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+    /*  display: none; 속성으로 없앨 수 없다*/
+  }
+}
+
+#splash-screen {
+  background-color: var(--koko-yellow);
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 64px;
+  animation: hidetSplashScreen 0.5s ease-in-out forwards;
+  /* forwards : 에니메이션 효과 종료 후 마지막 키프레임을 유지 하는 속성 값*/
+  animation-delay: 0.5s;
+}
