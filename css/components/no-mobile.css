@@ -18,7 +18,7 @@
   }
 }
 
-@media (orientation: portrait) {
+@media screen and (orientation: portrait) {
   #no-landcape {
     display: none;
   }
