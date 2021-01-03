@@ -15,16 +15,19 @@
   opacity: 0.8;
 }
 
-#login-form {
+#login-form,
+#signup-form {
   display: flex;
   flex-direction: column;
   margin: 0px 30px;
 }
-#login-form input {
+#login-form input,
+#signup-form input {
   border: none;
   padding: 15px 0px;
   font-size: 18px;
   margin-bottom: 25px;
+  cursor: pointer;
 }
 #login-form input[value="Log In"] {
   margin-bottom: 15px;
@@ -44,11 +47,14 @@
 }
 #login-form input[type="submit"] {
   background-color: var(--koko-yellow);
-  cursor: pointer;
   padding: 20px 0px;
   border-radius: 5px;
 }
-#login-form a {
+#signup-form input[type="submit"] {
+  background-color: var(--koko-brown);
+  color: white;
+}
+#signup-form a {
   text-align: center;
   /* text-decoration: none;
   color: inherit; */
