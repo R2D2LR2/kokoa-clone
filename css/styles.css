@@ -14,6 +14,7 @@
 @import "./components/badge.css";
 @import "./components/find.css";
 @import "./components/icon-row.css";
+@import "./components/no-mobile.css";
 
 /* 스크린 */
 @import "./screens/login.css";
