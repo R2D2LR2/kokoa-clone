@@ -9,9 +9,18 @@
   font-size: 32px;
   font-weight: 600;
 }
+.screen-header__icons {
+  position: relative;
+}
 .screen-header__icons span {
   margin-left: 20px;
   cursor: pointer;
+}
+
+.screen__notification--small {
+  position: absolute;
+  right: -10px;
+  top: -10px;
 }
 
 @keyframes rotateCog {
